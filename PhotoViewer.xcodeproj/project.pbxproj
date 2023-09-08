@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		84ED55D12AAA3520001FE4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55D02AAA3520001FE4EF /* AppDelegate.swift */; };
 		84ED55D32AAA3520001FE4EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55D22AAA3520001FE4EF /* SceneDelegate.swift */; };
-		84ED55D52AAA3520001FE4EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55D42AAA3520001FE4EF /* ViewController.swift */; };
-		84ED55D82AAA3520001FE4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ED55D62AAA3520001FE4EF /* Main.storyboard */; };
+		84ED55D52AAA3520001FE4EF /* PhotoGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55D42AAA3520001FE4EF /* PhotoGalleryViewController.swift */; };
 		84ED55DA2AAA3521001FE4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED55D92AAA3521001FE4EF /* Assets.xcassets */; };
-		84ED55DD2AAA3521001FE4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ED55DB2AAA3521001FE4EF /* LaunchScreen.storyboard */; };
+		84ED55E52AAA356E001FE4EF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55E42AAA356E001FE4EF /* AppCoordinator.swift */; };
+		84ED55E72AAA36AE001FE4EF /* PhotoGalleryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55E62AAA36AE001FE4EF /* PhotoGalleryCoordinator.swift */; };
+		84ED55E92AAA3B3E001FE4EF /* PhotoGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55E82AAA3B3E001FE4EF /* PhotoGalleryViewModel.swift */; };
+		84ED55EB2AAA3B7F001FE4EF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55EA2AAA3B7F001FE4EF /* NetworkService.swift */; };
+		84ED55ED2AAA3C2F001FE4EF /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55EC2AAA3C2F001FE4EF /* PhotoModel.swift */; };
+		84ED55F12AAA48C4001FE4EF /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55F02AAA48C4001FE4EF /* Observable.swift */; };
+		84ED55F32AAA54FC001FE4EF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55F22AAA54FC001FE4EF /* PhotoCollectionViewCell.swift */; };
+		84ED55F62AAA55A7001FE4EF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84ED55F52AAA55A7001FE4EF /* SnapKit */; };
+		84ED55FE2AAA7D56001FE4EF /* PhotoBrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55FD2AAA7D56001FE4EF /* PhotoBrowseViewController.swift */; };
+		84ED56002AAA7DAF001FE4EF /* PhotoBrowseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED55FF2AAA7DAF001FE4EF /* PhotoBrowseViewModel.swift */; };
+		84ED56042AAA7F9F001FE4EF /* PhotoBrowseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED56032AAA7F9F001FE4EF /* PhotoBrowseCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84ED55CD2AAA3520001FE4EF /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ED55D02AAA3520001FE4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84ED55D22AAA3520001FE4EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84ED55D42AAA3520001FE4EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84ED55D72AAA3520001FE4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84ED55D42AAA3520001FE4EF /* PhotoGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewController.swift; sourceTree = "<group>"; };
 		84ED55D92AAA3521001FE4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84ED55DC2AAA3521001FE4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ED55DE2AAA3521001FE4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ED55E42AAA356E001FE4EF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		84ED55E62AAA36AE001FE4EF /* PhotoGalleryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryCoordinator.swift; sourceTree = "<group>"; };
+		84ED55E82AAA3B3E001FE4EF /* PhotoGalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewModel.swift; sourceTree = "<group>"; };
+		84ED55EA2AAA3B7F001FE4EF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		84ED55EC2AAA3C2F001FE4EF /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		84ED55F02AAA48C4001FE4EF /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		84ED55F22AAA54FC001FE4EF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		84ED55FD2AAA7D56001FE4EF /* PhotoBrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowseViewController.swift; sourceTree = "<group>"; };
+		84ED55FF2AAA7DAF001FE4EF /* PhotoBrowseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowseViewModel.swift; sourceTree = "<group>"; };
+		84ED56032AAA7F9F001FE4EF /* PhotoBrowseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowseCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84ED55F62AAA55A7001FE4EF /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +76,85 @@
 			children = (
 				84ED55D02AAA3520001FE4EF /* AppDelegate.swift */,
 				84ED55D22AAA3520001FE4EF /* SceneDelegate.swift */,
-				84ED55D42AAA3520001FE4EF /* ViewController.swift */,
-				84ED55D62AAA3520001FE4EF /* Main.storyboard */,
+				84ED56022AAA7E2D001FE4EF /* Support */,
+				84ED55F82AAA7B81001FE4EF /* Services */,
+				84ED56012AAA7DFF001FE4EF /* Model */,
+				84ED55F72AAA7B64001FE4EF /* Coordinators */,
+				84ED55F92AAA7B8D001FE4EF /* Scenes */,
 				84ED55D92AAA3521001FE4EF /* Assets.xcassets */,
-				84ED55DB2AAA3521001FE4EF /* LaunchScreen.storyboard */,
 				84ED55DE2AAA3521001FE4EF /* Info.plist */,
 			);
 			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		84ED55F72AAA7B64001FE4EF /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55E42AAA356E001FE4EF /* AppCoordinator.swift */,
+				84ED55E62AAA36AE001FE4EF /* PhotoGalleryCoordinator.swift */,
+				84ED56032AAA7F9F001FE4EF /* PhotoBrowseCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		84ED55F82AAA7B81001FE4EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55EA2AAA3B7F001FE4EF /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84ED55F92AAA7B8D001FE4EF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55FA2AAA7B9C001FE4EF /* PhotoGallery */,
+				84ED55FC2AAA7C86001FE4EF /* PhotoBrowse */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84ED55FA2AAA7B9C001FE4EF /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55D42AAA3520001FE4EF /* PhotoGalleryViewController.swift */,
+				84ED55E82AAA3B3E001FE4EF /* PhotoGalleryViewModel.swift */,
+				84ED55FB2AAA7C45001FE4EF /* Cell */,
+			);
+			path = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		84ED55FB2AAA7C45001FE4EF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55F22AAA54FC001FE4EF /* PhotoCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		84ED55FC2AAA7C86001FE4EF /* PhotoBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55FD2AAA7D56001FE4EF /* PhotoBrowseViewController.swift */,
+				84ED55FF2AAA7DAF001FE4EF /* PhotoBrowseViewModel.swift */,
+			);
+			path = PhotoBrowse;
+			sourceTree = "<group>";
+		};
+		84ED56012AAA7DFF001FE4EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55EC2AAA3C2F001FE4EF /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84ED56022AAA7E2D001FE4EF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				84ED55F02AAA48C4001FE4EF /* Observable.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +173,9 @@
 			dependencies = (
 			);
 			name = PhotoViewer;
+			packageProductDependencies = (
+				84ED55F52AAA55A7001FE4EF /* SnapKit */,
+			);
 			productName = PhotoViewer;
 			productReference = 84ED55CD2AAA3520001FE4EF /* PhotoViewer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 84ED55C42AAA3520001FE4EF;
+			packageReferences = (
+				84ED55F42AAA55A7001FE4EF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 84ED55CE2AAA3520001FE4EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ED55DD2AAA3521001FE4EF /* LaunchScreen.storyboard in Resources */,
 				84ED55DA2AAA3521001FE4EF /* Assets.xcassets in Resources */,
-				84ED55D82AAA3520001FE4EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +232,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ED55D52AAA3520001FE4EF /* ViewController.swift in Sources */,
+				84ED55E52AAA356E001FE4EF /* AppCoordinator.swift in Sources */,
+				84ED55F32AAA54FC001FE4EF /* PhotoCollectionViewCell.swift in Sources */,
+				84ED55E72AAA36AE001FE4EF /* PhotoGalleryCoordinator.swift in Sources */,
+				84ED55D52AAA3520001FE4EF /* PhotoGalleryViewController.swift in Sources */,
+				84ED56042AAA7F9F001FE4EF /* PhotoBrowseCoordinator.swift in Sources */,
+				84ED55FE2AAA7D56001FE4EF /* PhotoBrowseViewController.swift in Sources */,
+				84ED56002AAA7DAF001FE4EF /* PhotoBrowseViewModel.swift in Sources */,
 				84ED55D12AAA3520001FE4EF /* AppDelegate.swift in Sources */,
+				84ED55F12AAA48C4001FE4EF /* Observable.swift in Sources */,
+				84ED55E92AAA3B3E001FE4EF /* PhotoGalleryViewModel.swift in Sources */,
 				84ED55D32AAA3520001FE4EF /* SceneDelegate.swift in Sources */,
+				84ED55ED2AAA3C2F001FE4EF /* PhotoModel.swift in Sources */,
+				84ED55EB2AAA3B7F001FE4EF /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		84ED55D62AAA3520001FE4EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84ED55D72AAA3520001FE4EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84ED55DB2AAA3521001FE4EF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84ED55DC2AAA3521001FE4EF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84ED55DF2AAA3521001FE4EF /* Debug */ = {
@@ -291,7 +376,6 @@
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +402,6 @@
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84ED55F42AAA55A7001FE4EF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84ED55F52AAA55A7001FE4EF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84ED55F42AAA55A7001FE4EF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84ED55C52AAA3520001FE4EF /* Project object */;
 }
